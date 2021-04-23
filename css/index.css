@@ -21,21 +21,24 @@ html {
 }
 p{
   font-size: 20px;
-  color: #2E7476;
+  color: #6A5542;
+  font-family: 'Noto Sans', sans-serif;;
   text-align:left;
 }
 h1{
-  font-size: 50px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: rgb(1, 59, 59);
+  font-size: 40px;
+  font-family: 'Rock Salt', cursive;
+  color:#327300;
   text-align: center;
   justify-content: center;
   align-items: center;
+  margin: 20px;
+  line-height: 65px;
 }
 h2{
   font-size: 30px;
-  font-family: 'Didact Gothic', 'Open Sans', sans-serif;
-  color: rgb(1, 59, 59);
+  font-family: 'Rock Salt', cursive;
+  color:#327300;
   text-align: center;
   font-style: initial;
 }
@@ -86,7 +89,28 @@ h3{
 }
 
 /*----------------BODY-----------------*/
-
+.jumbotron {
+  background-image: url(../images/placeholder.JPG);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 340px);
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.img-fluid{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.bounceArrow{
+  margin: 50px;
+    margin-bottom: 100px;
+  text-align: center;
+  justify-content: center;
+}
 .main {
   padding: 40px;
 }
