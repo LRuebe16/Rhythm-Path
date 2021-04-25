@@ -3,12 +3,12 @@
 <head>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/events.css">
+  <link rel="stylesheet" href="css/accessories.css">
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0, width=device-width">
 
-  <link href="css/events.css" rel="stylesheet" type="text/css">
+  <link href="css/accessories.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Rock+Salt&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
 <body>
 <!-- Bootstrap Navigation Component -->
   <nav class="navbar fixed-top navbar-expand-lg ">
-    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/newLogo.png" alt="logo">
+    <a class="navbar-brand" href="#"><img class="img-fluid" src="images/newLogo.png" alt="logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -33,10 +33,17 @@
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Events</a>
+          <a class="nav-link" href="events.html">Events</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="store.html">Store</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="store.html" id="navbardrop" data-toggle="dropdown">
+            Store
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="djembe.html">Drums</a>
+            <a class="dropdown-item" href="HandPercussion.html">Hand Percussion</a>
+            <a class="dropdown-item" href="accessories.html">Accessories</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Resources</a>
@@ -53,55 +60,42 @@
 
 
 <!-- Bootstrap Hero Section -->
-<div class="jumbotron jumbotron-fluid">
-</div>
+
 <img class="img-fluid" src="images/pattern.png" alt="patternbreak">
-<!--
-<div class="arrow bounce">
-  <img src="images/arrow.png" href="#">
-</div>
--->
-<!-- Body -->
-
-<section>
-  <div class="row content">
-    <div class="col-sm-6"><div class="container-fluid">
-      <h2 style="text-align: left;">Team Building Events</h2>
-      <p>Rhythm Path is happy to announce a truly unique opportunity for your business to experience collaboration through the cultural exploration of music and rhythms. One of Rhythm Path's facilitators will bring the drums, the fun and the chance to learn and apply team building techniques through music and rhythms. Book Rhythm Path's services today and experience a new path for your next team building event!</p>
-      <a href="eventInfo.html"><button type="button" class="btn btn-primary">Book Event</button></a>
-    </div></div>
-    <div class="col-sm-6"><div class="container-fluid">
-      <img class="img-fluid" src="images/teambuildeventImg.png" alt="EventsImage">
-    </div></div>
-  </div>
-
-  <img class="img-fluid" src="images/pattern.png" alt="patternbreak">
-
-  <div class="row content">
+<h1>Accessories</h1>
+<div class="row content">
   <div class="col-sm-6"><div class="container-fluid">
-    <img class="img-fluid" src="images/schooleventsImg.png" alt="EventsImage">
+    <img class="img-fluid" src="images/accessMainImg.png" alt="drum necklace image">
+    <br>
+    <h2>Necklace $25 ea.</h2>
+    <p>Hand crafted by a drum artisan in West Africa.</p>
   </div></div>
   <div class="col-sm-6"><div class="container-fluid">
-    <h2 style="text-align: left;">School Events - Day of Drumming</h2>
-    <p>Social Emotional Learning while playing drums?!  This is a unique assembly program where every student has their very own authentic West African djembe drum to play.  Students will work as a team to accomplish the goal of making music together.</p>
-    <a href="schooleventInfo.html"><button type="button" class="btn btn-primary">Book Event</button></a>
+    <h4>Select a Product</h4>
+    <div class="row">
+      <div class="col"><img src="images/bougarabou.png" class="img-circle" alt="bougarabou necklace">
+      <h4>Bougarabou Necklace</h4>
+      <h4>$25.00</h4>
+    </div>
+      <div class="col"><img src="images/djembenecklace.png" class="img-circle" alt="djembe necklace">
+      <h4>Djembe Necklace</h4>
+      <h4>$25.00</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col"><img src="images/dundun.png" class="img-circle" alt="dundun necklace">
+      <h4>Dundun Necklace</h4>
+      <h4>$25.00</h4>
+      </div>
+      
+      <div class="col"><img src="images/blank.png" class="img-circle" alt="">
+      </div>
+      <div class="col"><img src="images/blank.png" class="img-circle" alt="Elephant drum"></div>
+    </div>
+    
+    
   </div></div>
-  </div>
-
-  <img class="img-fluid" src="images/pattern.png" alt="patternbreak">
-
-  <div class="row content">
-    <div class="col-sm-6"><div class="container-fluid">
-      <h2 style="text-align: left;">Coming Soon - Drum in Class</h2>
-      <p>Rhythm Path is working on a new two week program where students drum together in their music class. The program will be similar to the large “Day of Drumming” assembly program, however, students will have more opportunities in a classroom setting. The program will include drum along video lessons as well as teaching material/plans for the classroom teacher.</p>
-      <button type="button" class="btn btn-primary">More Info</button>
-    </div></div>
-    <div class="col-sm-6"><div class="container-fluid">
-      <img class="img-fluid" src="images/druminclassImg.png" alt="EventsImage">
-    </div></div>
-  </div>  
-</section>
-
+  <h4>Please note that it does not come with a necklace string.  This is a real miniature dundun made with real goat skin and wood.  You use it as a necklace, Christmas tree ornament, home decor, etc.</h4>
 <!-- Footer -->
 <footer> 
   <ul>

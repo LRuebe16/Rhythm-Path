@@ -22,7 +22,7 @@
 <body>
 <!-- Bootstrap Navigation Component -->
   <nav class="navbar fixed-top navbar-expand-lg ">
-    <a class="navbar-brand" href="#"><img class="img-fluid" src="images/newLogo.png" alt="logo">
+    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/newLogo.png" alt="logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -35,8 +35,15 @@
         <li class="nav-item">
           <a class="nav-link" href="events.html">Events</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Store</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="store.html" id="navbardrop" data-toggle="dropdown">
+            Store
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="djembe.html">Drums</a>
+            <a class="dropdown-item" href="HandPercussion.html">Hand Percussion</a>
+            <a class="dropdown-item" href="accessories.html">Accessories</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Resources</a>
@@ -75,7 +82,7 @@
     </div></div>
     <div class="col-sm-3"><div class="container-fluid">
       <img class="img-fluid" src="images/accessories img.png" alt="accessories image">
-      <button type="button" class="btn btn-primary">Book Event</button>
+      <a href="accessories.html"><button type="button" class="btn btn-primary">Accessories</button></a>
     </div></div>
   </div>
 
