@@ -153,9 +153,14 @@ ul {
 }
 .row {
   margin: 0px;
+  justify-content: center;
 }
 .col{
   margin-top: 30px;
+  padding: 0px !important;
+}
+.col-sm-12{
+  padding: 0px;
 }
 .content{
   align-items: center;
@@ -172,6 +177,11 @@ ul {
 }
 .container-fluid{
   text-align: center;
+  margin-left: 0px; margin-right: 0px;
+}
+.container-fluid .gif{
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 /*FOOTER*/
