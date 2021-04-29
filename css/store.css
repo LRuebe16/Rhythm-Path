@@ -93,6 +93,7 @@ h3{
 }
 .navbar-brand {
   max-width: 200px;
+  padding: 20px;
 }
 .nav-link{
   color: #327300 !important;
@@ -100,8 +101,9 @@ h3{
 
 /*----------------BODY-----------------*/
 .jumbotron {
-  background-image: url(../images/storeHeroImg.png);
+  background-image: url(../images/huts.jpg);
   background-size: cover;
+  background-position: center;
   width: 100%;
   background-repeat: no-repeat;
   display: flex;
@@ -115,7 +117,7 @@ h3{
   width: 100%;
   margin: 0px;
   padding: 0px;
-  margin-bottom: 10px;
+
 }
 .row {
   margin: 0px;
