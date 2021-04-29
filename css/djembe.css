@@ -28,8 +28,18 @@ p{
   font-size: 20px;
   color: #6A5542;
   font-family: 'Noto Sans', sans-serif;
- 
+  text-align:center;
   margin-top: 40px; margin-bottom: 40px;
+}
+.description{
+  font-size: 20px;
+    color: #6A5542;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 h1{
   font-size: 60px;
@@ -38,7 +48,7 @@ h1{
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin-top: 50px; margin-bottom: 50px;
   line-height: 65px;
 }
 h2{
@@ -68,7 +78,8 @@ h5{
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: -30px;
   line-height: 65px;
 }
 ul {
@@ -134,7 +145,7 @@ ul {
   padding: 0px;
 }
 .row {
-  margin: 40px;
+  margin: 0px;
 }
 .content{
   align-items: center;
@@ -215,7 +226,6 @@ footer li {
   text-decoration: none;
   color: #F0EDDC;
 }
-
 
 
 @keyframes bounce {
