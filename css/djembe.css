@@ -64,6 +64,7 @@ h3{
   font-family: 'Rock Salt', cursive;
   color: #327300;
   text-align: center;
+  margin-top: 40px;
 }
 h4 {
   font-size: 18px;
@@ -146,6 +147,9 @@ ul {
 }
 .row {
   margin: 0px;
+}
+.col{
+  margin-top: 30px;
 }
 .content{
   align-items: center;
