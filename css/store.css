@@ -1,13 +1,10 @@
 body{
   margin: 0px;
   padding: 0px;
+  margin-top: 70px;
 }
 a { color: #2E7476; 
   text-decoration: none;
-  padding: 20px;
- }
- .jumbotron {
-   background-color: white;
  }
  .btn:hover{
     box-shadow: 2px 4px 5px #00000079;
@@ -20,6 +17,17 @@ a { color: #2E7476;
    border-radius: 15px;
    border: 0px;
  }
+ .btnlong:hover{
+  box-shadow: 2px 4px 5px #00000079;
+  background-color: #327300;
+}
+ .btnlong {
+  background-color: #327300;
+  height: 50px;
+  width: 320px;
+  border-radius: 15px;
+  border: 0px;
+ }
 
 html {
   scroll-behavior: smooth;
@@ -29,7 +37,7 @@ p{
   color: #6A5542;
   font-family: 'Noto Sans', sans-serif;
   text-align:center;
-  margin-top: 40px; margin-bottom: 40px;
+  margin-top: 20px; margin-bottom: 20px;
 }
 h1{
   font-size: 40px;
@@ -90,6 +98,7 @@ h3{
 }
 .navbar-brand {
   max-width: 200px;
+  padding: 20px;
 }
 .nav-link{
   color: #327300 !important;
@@ -97,8 +106,9 @@ h3{
 
 /*----------------BODY-----------------*/
 .jumbotron {
-  background-image: url(../images/storeHeroImg.png);
+  background-image: url(../images/huts.jpg);
   background-size: cover;
+  background-position: center;
   width: 100%;
   background-repeat: no-repeat;
   display: flex;
@@ -112,12 +122,17 @@ h3{
   width: 100%;
   margin: 0px;
   padding: 0px;
+
 }
 .row {
-  margin: 40px;
+  margin: 0px;
 }
 .content{
   align-items: center;
+  padding-bottom: 50px;
+}
+.content img {
+  padding-bottom: 20px;
 }
 .arrow {
   text-align: center;
@@ -216,6 +231,10 @@ footer li {
     margin: 0;
     width: 100%;
   }
+  .navbar-brand img {
+    max-width: 200px;
+    padding: 20px;
+}
 }
 
 @media only screen and (max-width: 700px) {

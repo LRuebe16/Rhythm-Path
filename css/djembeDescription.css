@@ -1,5 +1,6 @@
 body{
   margin: 0px;
+  margin-top: 70px;
   padding: 0px;
 }
 a { color: #2E7476; 
@@ -38,7 +39,8 @@ h1{
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin-bottom: 50px;
+  padding-top: 50px;
   line-height: 65px;
 }
 h2{
@@ -60,7 +62,7 @@ h4 {
   font-family: 'Noto Sans', bold;
   color: #6a5542;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 h5{
   font-size: 40px;
@@ -131,10 +133,12 @@ h5{
   padding: 0px;
 }
 .row {
-  margin: 40px;
+  margin: 0px;
+  justify-content: center;
 }
 .content{
   align-items: center;
+  margin-bottom: 50px;
 }
 .arrow {
   text-align: center;
@@ -149,7 +153,6 @@ h5{
 .list-group {
   width: 400px;
   align-items: center;
-  margin-left: 80px;
 }
 .custom-select {
   width: 339px;

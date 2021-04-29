@@ -1,6 +1,7 @@
 body{
   margin: 0px;
   padding: 0px;
+  margin-top: 70px;
 }
 a { color: #2E7476; 
   text-decoration: none;
@@ -28,8 +29,18 @@ p{
   font-size: 20px;
   color: #6A5542;
   font-family: 'Noto Sans', sans-serif;
- 
+  text-align:center;
   margin-top: 40px; margin-bottom: 40px;
+}
+.description{
+  font-size: 20px;
+    color: #6A5542;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 h1{
   font-size: 60px;
@@ -38,7 +49,8 @@ h1{
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin-bottom: 50px;
+  padding-top: 50px;
   line-height: 65px;
 }
 h2{
@@ -54,6 +66,7 @@ h3{
   font-family: 'Rock Salt', cursive;
   color: #327300;
   text-align: center;
+  margin-top: 40px;
 }
 h4 {
   font-size: 18px;
@@ -68,12 +81,12 @@ h5{
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: -30px;
   line-height: 65px;
 }
 ul {
   list-style: none;
-  
 }
 
 /*Top Navigation*/
@@ -133,8 +146,21 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+.howMade{
+  width:75%;
+  margin: 0px;
+  padding: 0px;
+}
 .row {
-  margin: 40px;
+  margin: 0px;
+  justify-content: center;
+}
+.col{
+  margin-top: 30px;
+  padding: 0px !important;
+}
+.col-sm-12{
+  padding: 0px;
 }
 .content{
   align-items: center;
@@ -148,6 +174,14 @@ ul {
   -moz-animation: bounce 2.5s ;
   -webkit-animation: bounce 2s;
   animation: bounce 2s 3 forwards;
+}
+.container-fluid{
+  text-align: center;
+  margin-left: 0px; margin-right: 0px;
+}
+.container-fluid .gif{
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 /*FOOTER*/
@@ -215,7 +249,6 @@ footer li {
   text-decoration: none;
   color: #F0EDDC;
 }
-
 
 
 @keyframes bounce {
