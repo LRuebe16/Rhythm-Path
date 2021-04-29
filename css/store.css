@@ -5,7 +5,7 @@ body{
 a { color: #2E7476; 
   text-decoration: none;
  }
- .btn .btnlong:hover{
+ .btn:hover{
     box-shadow: 2px 4px 5px #00000079;
     background-color: #327300;
  }
@@ -16,6 +16,10 @@ a { color: #2E7476;
    border-radius: 15px;
    border: 0px;
  }
+ .btnlong:hover{
+  box-shadow: 2px 4px 5px #00000079;
+  background-color: #327300;
+}
  .btnlong {
   background-color: #327300;
   height: 50px;
@@ -32,7 +36,7 @@ p{
   color: #6A5542;
   font-family: 'Noto Sans', sans-serif;
   text-align:center;
-  margin-top: 40px; margin-bottom: 40px;
+  margin-top: 20px; margin-bottom: 20px;
 }
 h1{
   font-size: 40px;
@@ -125,6 +129,9 @@ h3{
 .content{
   align-items: center;
   padding-bottom: 50px;
+}
+.content img {
+  padding-bottom: 20px;
 }
 .arrow {
   text-align: center;
@@ -223,6 +230,10 @@ footer li {
     margin: 0;
     width: 100%;
   }
+  .navbar-brand img {
+    max-width: 200px;
+    padding: 20px;
+}
 }
 
 @media only screen and (max-width: 700px) {
