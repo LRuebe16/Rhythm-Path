@@ -4,12 +4,8 @@ body{
 }
 a { color: #2E7476; 
   text-decoration: none;
-  padding: 20px;
  }
- .jumbotron {
-   background-color: white;
- }
- .btn:hover{
+ .btn .btnlong:hover{
     box-shadow: 2px 4px 5px #00000079;
     background-color: #327300;
  }
@@ -19,6 +15,13 @@ a { color: #2E7476;
    width: 250px;
    border-radius: 15px;
    border: 0px;
+ }
+ .btnlong {
+  background-color: #327300;
+  height: 50px;
+  width: 320px;
+  border-radius: 15px;
+  border: 0px;
  }
 
 html {
@@ -112,12 +115,14 @@ h3{
   width: 100%;
   margin: 0px;
   padding: 0px;
+  margin-bottom: 10px;
 }
 .row {
-  margin: 40px;
+  margin: 0px;
 }
 .content{
   align-items: center;
+  padding-bottom: 50px;
 }
 .arrow {
   text-align: center;
