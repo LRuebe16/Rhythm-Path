@@ -64,8 +64,6 @@ h3{
   font-family: 'Noto Sans', sans-serif;;
 }
 .navbar ul{
-  display: inline-block;
-  width: 100%;
   vertical-align: middle;
   margin-right: 40px;
 }
@@ -76,7 +74,6 @@ h3{
   background-position: left 5px center;
 }
 .navbar li{
-  display: inline-block;
   line-height: 70px;
   font-size: 15pt;
   padding-left: 20px;
@@ -252,6 +249,21 @@ footer li {
       background-color: green;
 
     }
+    .nav-item {
+      text-align: right;
+      width: auto;
+      margin: -6px;
+    }
+    .navbar li:hover{
+      margin-left: auto;
+      padding-left: -30px;
+    }
+    .navbar li {
+      line-height: 44px;
+    }
+    .navbar-nav .nav-link {
+      padding-left: 10px;
+    }
     }
     @media only screen and (max-width: 375px) {   
       .jumbotron {
@@ -285,4 +297,10 @@ footer li {
     background-color: #F0EDDC;
     height: 400px;
   }  
+  .arrowImage {
+    width: 50px;
+  }
+  pattern {
+    height: 56%;
+  }
 }
