@@ -96,25 +96,22 @@ h3{
 /*----------------BODY-----------------*/
 .jumbotron {
   background-position: center center;
-  background-size: cover;
-  background-color: pink;
-  width: 100%;
-  background-repeat: no-repeat;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  height: calc(110vh - 350px);
-  margin-bottom: 10px;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  padding: 0px;
+  margin: 0px;
 }
 .parent-element-to-video {
   overflow: hidden;
 }
 video {
   height: 100%;
-  width: 177.77777778vh; /* 100 * 16 / 9 */
+  width: 177.77777778vh;
   min-width: 100%;
-  min-height: 56.25vw; /* 100 * 9 / 16 */
+  min-height: 56.vw;
 }
 
 .img-fluid{
@@ -123,7 +120,7 @@ video {
   padding: 0px;
 }
 .pattern{
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .row {
   margin: 40px;
