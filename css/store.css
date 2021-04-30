@@ -47,6 +47,7 @@ h1{
   justify-content: center;
   align-items: center;
   margin: 20px;
+  padding-top: 50px;
   line-height: 65px;
 }
 h2{
@@ -116,7 +117,12 @@ h3{
   height: calc(100vh - 340px);
   margin-bottom: 10px;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  margin: 0px;
+  padding: 0px;
+}
+.pattern{
+  margin-bottom: -50px !important;
 }
 .img-fluid{
   width: 100%;
