@@ -103,7 +103,7 @@ ul {
 }
 .cart{
   margin-left: -80px !important;
-  min-width: 600px;
+  min-width: 400px;
 }
 
 /*Top Navigation*/
@@ -395,5 +395,8 @@ p.description{
   padding: 10px;
   margin-top: 20px;
 }
-
+.container-fluid .gif {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 }

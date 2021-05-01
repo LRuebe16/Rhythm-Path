@@ -1,6 +1,7 @@
 body{
   margin: 0px;
   padding: 0px;
+  padding-top: 50px !important;
 }
 a { color: #2E7476; 
   text-decoration: none;
@@ -245,21 +246,7 @@ footer li {
   }
 }
 
-@media only screen and (max-width: 1000px) {
-  body{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
-}
 
-@media only screen and (max-width: 700px) {
-  body{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
-  }
   @media only screen and (max-width: 991px) {
     body{
       padding: 0;
