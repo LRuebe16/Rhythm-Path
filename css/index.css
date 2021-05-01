@@ -264,6 +264,13 @@ footer li {
     .navbar-nav .nav-link {
       padding-left: 10px;
     }
+    .arrow {
+      text-align: center;
+      margin: 20px;
+      margin-bottom: 50px;
+      position: absolute;
+      
+    }
     }
     @media only screen and (max-width: 375px) {   
       .jumbotron {
@@ -297,10 +304,9 @@ footer li {
     background-color: #F0EDDC;
     height: 400px;
   }  
-  .arrowImage {
-    width: 50px;
-  }
+
   pattern {
     height: 56%;
   }
+
 }
