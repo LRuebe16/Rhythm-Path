@@ -131,7 +131,6 @@ video {
   text-align: center;
   margin: 50px;
   margin-bottom: 100px;
-  position: absolute;
   
 }
 .bounce {
@@ -268,8 +267,13 @@ footer li {
       text-align: center;
       margin: 20px;
       margin-bottom: 50px;
-      position: absolute;
-      
+    }
+    .content{
+      margin: 0px;
+      padding: 0px;
+    }
+    h1{
+      text-align: center;
     }
     }
     @media only screen and (max-width: 375px) {   
