@@ -65,8 +65,6 @@ h3{
   font-family: 'Noto Sans', sans-serif;;
 }
 .navbar ul{
-  display: inline-block;
-  width: 100%;
   vertical-align: middle;
   margin-right: 40px;
 }
@@ -77,7 +75,6 @@ h3{
   background-position: left 5px center;
 }
 .navbar li{
-  display: inline-block;
   line-height: 70px;
   font-size: 15pt;
   padding-left: 20px;
@@ -224,4 +221,84 @@ footer li {
     margin: 0;
     width: 100%;
   }
+  }
+  @media only screen and (max-width: 991px) {
+    body{
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+    #navbarNav {
+      background-color: white;
+      padding: 25px;
+    }
+    .navbar {
+      background-color: green;
+
+    }
+    .nav-item {
+      text-align: right;
+      width: auto;
+      margin: -6px;
+    }
+    .navbar li:hover{
+      margin-left: auto;
+      padding-left: -30px;
+    }
+    .navbar li {
+      line-height: 44px;
+    }
+    .navbar-nav .nav-link {
+      padding-left: 10px;
+    }
+    .arrow {
+      text-align: center;
+      margin: 20px;
+      margin-bottom: 50px;
+    }
+    .content{
+      margin: 0px;
+      padding: 0px;
+    }
+    h1{
+      text-align: center;
+    }
+    }
+    @media only screen and (max-width: 375px) {   
+      .jumbotron {
+        width: 375px;
+        align-items: center;
+        height: calc(110vh - 600px);
+      }
+      h1 {
+     font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+    color:#327300;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    line-height: 35px;
+      }
+      h2{
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+    color:#327300;
+    text-align: center;
+    font-style: initial;
+  }
+  .floatright li{
+    font-size:12px;
+  }
+  footer {
+    display: block;
+    width: 100%;
+    background-color: #F0EDDC;
+    height: 400px;
+  }  
+
+  pattern {
+    height: 56%;
+  }
+
 }
