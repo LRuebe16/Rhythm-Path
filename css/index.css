@@ -282,6 +282,9 @@ footer li {
         align-items: center;
         height: calc(110vh - 600px);
       }
+    p{
+      margin-top: 0px;
+    }
       h1 {
      font-size: 20px;
     font-family: 'Rock Salt', cursive;
@@ -302,12 +305,21 @@ footer li {
   .floatright li{
     font-size:12px;
   }
+  .container-fluid {
+    text-align: center;
+}
   footer {
     display: block;
     width: 100%;
     background-color: #F0EDDC;
-    height: 400px;
+    height: 300px;
   }  
+  footer li{
+    line-height: 20px;
+  }
+  .btn{
+    margin-bottom: 20px;
+  }
 
   pattern {
     height: 56%;
